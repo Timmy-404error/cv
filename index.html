@@ -3,77 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <title>Timur CV</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
     <body>
-        <table cellspacing="15">
-            <tr>
-                <td>
-                    <img src="Image.jpeg" width="150" alt="фотография кс">
-                </td>
-                <td>
+        <div class="container">
+            <div class="info">
+                <img src="photo.jpg" width="150" alt="Фотография" class="avatar">
+
+                <div class="info-text">
                     <h1>Атабаев Тимур</h1>
-                    <p><em>Я Главный специалист по карточному оборудованию 
-                    <strong>в Банке Центр Кредит</strong></em></p>
-                </td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Мои социальные сети</h2>
-        <ul type="square">
-            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
-            <li><a href="https://t.me/" target="_blank">Telegram</a></li>
-        </ul>
-        <hr>
-        <h2> Мое хобби</h2>
-        <ol type="1">
-            <li>Футбол</li>
-            <li>Машины</li>
-            <li>Игры</li>
-        </ol>
-        <hr>
-        <h2>Опыт работы</h2>
-        <table>
-            <tr>
-                <td>Компания</td>
-                <td>Должность</td>
-                <td>Год</td>
-            </tr>
-            <tr>
-                <td>Neo Service</td>
-                <td>Сервис инженер</td>
-                <td>2018-2023</td>
-            </tr>
-            <tr>
-                <td>БЦК</td>
-                <td>Главный специалист КО</td>
-                <td>2023-2024</td>
-            </tr>
-        </table>
-        <hr>
-        <h2>Youtube</h2>
-        <a href="Youtube.html" target="_blank">Список</a>
-        <hr>
-        <h2>Связаться со мной</h2>
-        <form action="/">
-            <label for="name">Ваше имя:</label>
-            <input type="text" id="name"
-            placeholder="Введите ваше имя">
-
-            <br>
-
-            <label for="email">Ваше Email:</label>
-            <input type="email" id="Email"
-            placeholder="Введите email">
-
-            <br>
-
-            <label for="text">Ваше сообщение:</label>
-            <br>
-            <textarea name="" id="text" rows="2" cols="15"></textarea>   
-            <br>
-            <input type="submit" value="Связаться!">
+                    <p>Я Главный специалист по карточному оборудованию в
+                    <strong>Банке Центр Кредит</strong></em></p>
+                    <h4>Мои социальные сети</h4>
+                    <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+                    |
+                    <a href="https://t.me/" target="_blank">Telegram</a>
+                </div>
+ 
+            </div>
+            <div class="card bg-yellow">
+                <h2> Мое хобби</h2>
+                <ol class="list">
+                    <li>Футбол</li>
+                    <li>Машины</li>
+                <li>Игры</li>
+                </ol>
+            </div>
+                <div class="card bg-green">
+                    <h2>Опыт работы</h2>
+                    <table class="table">
+                    <tr>
+                        <td>Neo Service</td>
+                        <td>Сервис инженер</td>
+                        <td>2018-2023</td>
+                    </tr>
+                    <tr>
+                        <td>БЦК</td>
+                        <td>Главный специалист КО</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    <tr>
+                        <td>БЦК</td>
+                        <td>Главный специалист КО</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    <tr>
+                        <td>БЦК</td>
+                        <td>Главный специалист КО</td>
+                        <td>2023-2024</td>
+                    </tr>
+                    </table>
+                </div>  
+        <div class="card bg-red">
+            <h2>Youtube</h2>
+            <ul class="link-list">
+                <li>
+                    <a href="https://www.youtube.com/watch?v=9RbdvUcnfqQ">Как играть Dust2</a>
+                    <li><a href="https://www.youtube.com/watch?v=4RjyZtMRx_s">Indiana Jones and the Great Circle "Баги, Приколы, Фейлы"</a>
+                    </li>
+                    
+                </li>
+            </ul>    
             
+        </div>
+        <div class="contact">
+            <h2>Связаться со мной</h2>
+        <form action="/">
+            <div class="row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name"
+                    placeholder="Введите ваше имя">
+                </div>
+                <div class="form-group">
+                    <label for="email">Ваше Email:</label>
+                    <input type="email" id="Email"
+                    placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="text">Ваше сообщение:</label>
+                <textarea name="" id="text" rows="2" cols="15"></textarea> 
+            </div>  
+            <input class="btn" type="submit" value="Связаться!">
         </form>
+        </div> 
+        <div class="position">
+            <div class="box"></div>
+        </div> 
+        </div>
+        
+        <div style="margin-bottom:500px;"></div>
     </body>
 </html>
 
